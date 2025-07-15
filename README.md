@@ -1,4 +1,4 @@
-# APP梯子网 | 7月9日22.1M/S|免费Shadowrocket/SSR/V2ray/Clash订阅节点链接  更新时间 2025-07-09 09:01:36
+# APP梯子网 | 7月15日20.6M/S|免费V2ray/SSR/Clash/Shadowrocket订阅节点链接  更新时间 2025-07-15 09:52:36
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://apptizi.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://apptizi.github.io/uploads/2025/07/0-20250709.yaml
-- https://apptizi.github.io/uploads/2025/07/1-20250709.yaml
-- https://apptizi.github.io/uploads/2025/07/2-20250709.yaml
-- https://apptizi.github.io/uploads/2025/07/3-20250709.yaml
-- https://apptizi.github.io/uploads/2025/07/4-20250709.yaml
+- https://apptizi.github.io/uploads/2025/07/0-20250715.yaml
+- https://apptizi.github.io/uploads/2025/07/1-20250715.yaml
+- https://apptizi.github.io/uploads/2025/07/2-20250715.yaml
+- https://apptizi.github.io/uploads/2025/07/3-20250715.yaml
+- https://apptizi.github.io/uploads/2025/07/4-20250715.yaml
 
 ### V2ray订阅链接
 
-- https://apptizi.github.io/uploads/2025/07/0-20250709.txt
-- https://apptizi.github.io/uploads/2025/07/1-20250709.txt
-- https://apptizi.github.io/uploads/2025/07/2-20250709.txt
-- https://apptizi.github.io/uploads/2025/07/3-20250709.txt
-- https://apptizi.github.io/uploads/2025/07/4-20250709.txt
+- https://apptizi.github.io/uploads/2025/07/0-20250715.txt
+- https://apptizi.github.io/uploads/2025/07/1-20250715.txt
+- https://apptizi.github.io/uploads/2025/07/2-20250715.txt
+- https://apptizi.github.io/uploads/2025/07/3-20250715.txt
+- https://apptizi.github.io/uploads/2025/07/4-20250715.txt
 
 ### Sing-box订阅链接
 
-- https://apptizi.github.io/uploads/2025/07/20250709.json
+- https://apptizi.github.io/uploads/2025/07/20250715.json
 
 ## 更多clash节点订阅 ：
 
