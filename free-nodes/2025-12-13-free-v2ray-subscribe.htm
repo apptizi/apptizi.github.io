@@ -279,6 +279,11 @@ A：根据网络环境差异，Trojan因HTTPS伪装更难被封锁，但V2Ray通
         支持。Nekobox 允许用户创建多个配置文件并快速切换，适合在不同网络环境下使用不同规则。例如家用网络与移动数据可使用独立的配置方案。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash 的 Rule Provider 自动更新规则如何操作？</h5></div>
+    <div class="panel-body">
+        Rule Provider 可以通过远程 URL 自动下载规则和节点，定期更新无需手动操作。结合策略组使用，可保持节点和分流规则最新，提高访问速度和网络可用性。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>PassWall2 自动切换节点机制如何工作？</h5></div>
     <div class="panel-body">
         PassWall2 会根据节点延迟和丢包率测试结果，结合策略组自动选择最优节点处理流量。无需用户手动切换，保证网页、视频和游戏流量的速度和稳定性，优化网络体验。<hr />    </div>
@@ -294,11 +299,6 @@ A：根据网络环境差异，Trojan因HTTPS伪装更难被封锁，但V2Ray通
         Mihomo 是 Clash Meta 的优化分支，采用最新 Go 语言版本编译并针对多线程性能进行了改进。整体运行效率略高，特别是在多节点切换和 DNS 分流方面表现更流畅。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>PassWall2 的延迟测试如何影响策略组选择？</h5></div>
-    <div class="panel-body">
-        PassWall2 会根据节点延迟结果更新策略组的优先节点，自动选择延迟最低的节点处理流量。这样可以优化访问速度，提高网页浏览、视频和游戏体验的稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>V2RayN 的 GUI 界面如何导出节点？</h5></div>
     <div class="panel-body">
         V2RayN 提供节点导出功能，可生成分享链接或二维码。用户右键节点选择“分享”即可导出，以便在其他设备导入同样的代理配置，保持同步使用体验。<hr />    </div>
@@ -309,19 +309,19 @@ A：根据网络环境差异，Trojan因HTTPS伪装更难被封锁，但V2Ray通
         Clash 结合策略组和延迟检测功能，自动选择延迟低、稳定性高的节点处理网页流量。提升访问速度和稳定性，减少加载时间和浏览卡顿，优化整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 的 Rule Provider 自动更新规则如何操作？</h5></div>
+    <div class="panel-heading"><h5>PassWall2 的延迟测试如何影响策略组选择？</h5></div>
     <div class="panel-body">
-        Rule Provider 可以通过远程 URL 自动下载规则和节点，定期更新无需手动操作。结合策略组使用，可保持节点和分流规则最新，提高访问速度和网络可用性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Trojan-Go 的多路复用（mux）如何开启？</h5></div>
-    <div class="panel-body">
-        Trojan-Go 在配置文件中通过启用 mux 参数即可实现多路复用。此功能允许多个连接共享同一隧道，减少握手延迟并提升整体传输效率，尤其在移动网络中表现出色。<hr />    </div>
+        PassWall2 会根据节点延迟结果更新策略组的优先节点，自动选择延迟最低的节点处理流量。这样可以优化访问速度，提高网页浏览、视频和游戏体验的稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>PassWall2 的主要特性有哪些？</h5></div>
     <div class="panel-body">
-        PassWall2 是基于 OpenWRT 的代理管理面板，支持多种协议（V2Ray、Trojan、Shadowsocks 等），拥有图形化界面和分流规则设置功能。它能帮助路由器实现全局代理和智能分流。    </div>
+        PassWall2 是基于 OpenWRT 的代理管理面板，支持多种协议（V2Ray、Trojan、Shadowsocks 等），拥有图形化界面和分流规则设置功能。它能帮助路由器实现全局代理和智能分流。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Trojan-Go 的多路复用（mux）如何开启？</h5></div>
+    <div class="panel-body">
+        Trojan-Go 在配置文件中通过启用 mux 参数即可实现多路复用。此功能允许多个连接共享同一隧道，减少握手延迟并提升整体传输效率，尤其在移动网络中表现出色。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -350,16 +350,16 @@ A：根据网络环境差异，Trojan因HTTPS伪装更难被封锁，但V2Ray通
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-11-27-free-v2ray.htm" title="APP梯子网 | 11月27日22.8M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点订阅节点链接">APP梯子网 | 11月27日22.8M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点订阅节点链接</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-12-2-free-subscribe-node.htm" title="APP梯子网 | 12月2日22.2M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点订阅节点链接">APP梯子网 | 12月2日22.2M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点订阅节点链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-12-13-free-v2ray-subscribe.htm" title="APP梯子网 | 12月13日18.4M/S|免费Clash节点/Shadowrocket节点/SSR节点/V2ray节点/Singbox节点订阅节点链接">APP梯子网 | 12月13日18.4M/S|免费Clash节点/Shadowrocket节点/SSR节点/V2ray节点/Singbox节点订阅节点链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-12-8-node-share.htm" title="APP梯子网 | 12月8日18.3M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点订阅节点链接">APP梯子网 | 12月8日18.3M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Singbox节点订阅节点链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-11-free-high-speed-nodes.htm" title="APP梯子网 | 11月11日20.6M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点链接">APP梯子网 | 11月11日20.6M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-5-free-subscribe-node.htm" title="APP梯子网 | 11月5日22.8M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点链接">APP梯子网 | 11月5日22.8M/S|免费Clash节点/SSR节点/Singbox节点/Shadowrocket节点/V2ray节点订阅节点链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-30-free-high-speed-nodes.htm" title="APP梯子网 | 11月30日18.9M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点订阅节点链接">APP梯子网 | 11月30日18.9M/S|免费V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点订阅节点链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-13-free-v2ray-subscribe.htm" title="APP梯子网 | 11月13日22.3M/S|免费V2ray节点/Singbox节点/SSR节点/Clash节点/Shadowrocket节点订阅节点链接">APP梯子网 | 11月13日22.3M/S|免费V2ray节点/Singbox节点/SSR节点/Clash节点/Shadowrocket节点订阅节点链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-8-free-high-speed-nodes.htm" title="APP梯子网 | 11月8日18.9M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点订阅节点链接">APP梯子网 | 11月8日18.9M/S|免费V2ray节点/Singbox节点/Shadowrocket节点/Clash节点/SSR节点订阅节点链接</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-20-free-subscribe-node.htm" title="APP梯子网 | 11月20日21.5M/S|免费Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点链接">APP梯子网 | 11月20日21.5M/S|免费Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点订阅节点链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-12-9-free-high-speed-nodes.htm" title="APP梯子网 | 12月9日18.9M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/Clash节点/SSR节点订阅节点链接">APP梯子网 | 12月9日18.9M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/Clash节点/SSR节点订阅节点链接</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-9-free-subscribe-node.htm" title="APP梯子网 | 11月9日21.7M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/Clash节点/SSR节点订阅节点链接">APP梯子网 | 11月9日21.7M/S|免费Shadowrocket节点/V2ray节点/Singbox节点/Clash节点/SSR节点订阅节点链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-17-free-v2ray-subscribe.htm" title="APP梯子网 | 11月17日21.1M/S|免费Singbox节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点订阅节点链接">APP梯子网 | 11月17日21.1M/S|免费Singbox节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点订阅节点链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-20-clash-v2ray-ss-ssr.htm" title="APP梯子网 | 12月20日19.3M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点订阅节点链接">APP梯子网 | 12月20日19.3M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点订阅节点链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-7-free-v2ray-subscribe.htm" title="APP梯子网 | 12月7日20.8M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点订阅节点链接">APP梯子网 | 12月7日20.8M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点订阅节点链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-3-free-node-subscribe.htm" title="APP梯子网 | 12月3日18M/S|免费Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点订阅节点链接">APP梯子网 | 12月3日18M/S|免费Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点订阅节点链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-27-free-v2ray.htm" title="APP梯子网 | 11月27日22.8M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点订阅节点链接">APP梯子网 | 11月27日22.8M/S|免费Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点订阅节点链接</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-12-11-node-share-links.htm" title="APP梯子网 | 12月11日19.9M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点订阅节点链接">APP梯子网 | 12月11日19.9M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点订阅节点链接</a></li>
                     </ul>
     </div>
 </div>
@@ -371,7 +371,7 @@ A：根据网络环境差异，Trojan因HTTPS伪装更难被封锁，但V2Ray通
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
+                <h4><span class="badge" style="float: right;">20</span> <a href="/date/2025-12/" title="2025-12 归档">2025-12</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">23</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
